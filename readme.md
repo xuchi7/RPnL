@@ -27,7 +27,9 @@ URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7494617&isnumber=43
 ## Abstract
 
 In this paper we deal with the camera pose estimation problem from a set of 2D/3D line correspondences, which is also known as PnL (Perspective-n-Line) problem. We carry out our study by comparing PnL with the well-studied PnP (Perspective-n-Point) problem, and our contributions are threefold: (1) We provide a complete 3D configuration analysis for P3L, which includes the well-known P3P problem as well as several existing analyses as special cases. (2) By exploring the similarity between PnL and PnP, we propose a new subset-based PnL approach as well as a series of linear-formulation-based PnL approaches inspired by their PnP counterparts. (3) The proposed linear-formulation-based methods can be easily extended to deal with the line and point features simultaneously.
-keywords: {Camera Pose Estimation;Configuration Analysis;Perspective-3-Line;Perspective-n-Line}
+
+## keywords 
+Camera Pose Estimation;Configuration Analysis;Perspective-3-Line;Perspective-n-Line
 
 ## Related Papers
 [1] Shiqi Li, Chi Xu*, Ming Xie, "A Robust O(n) Solution to the Perspective-n-Point Problem," IEEE Transactions on  Pattern Analysis and Machine Intelligence, vol. 34, no. 7, pp. 1444-1450,  July 2012, doi:10.1109/TPAMI.2012.41
