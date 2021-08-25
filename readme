@@ -1,0 +1,18 @@
+Please run "main.m" in this folder.
+
+In "main.m", we tested 6 experiments.
+The defined flags for the experiments are as follows:
+- a1; % centered (outlier-free)
+- a2; % uncentred (outlier-free)
+- b1; % nLine = 4
+- b2; % nLine = 5
+- c1; % centered (with outliers)
+- c2; % uncentred (with outliers)
+
+for each experiment, the code does the following:
+(1) generate testing data (3d lines, their 2d projectons, and groundtruth), 
+	and store it in "testData" folder
+(2)	load the testing data, test the compared methods, and store the results 
+	(mean & median rotation & translation errors, correct-rate, execution time) 
+	in "resData" folder
+(3) load the results in "resData" folder, and plot the figures
